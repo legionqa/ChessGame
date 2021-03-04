@@ -37,7 +37,7 @@ public class PlayerTest {
 
     @Test
     public void validMoveTest(){
-        players.get(0).movePiece(pieceHashMap.get("black_king"), new Spot("h", 8));
+        players.get(0).movePiece(pieceHashMap.get("white_king"), new Spot("h", 8));
         Assertions.assertEquals(8, pieceHashMap.get("white_king").getSpot().getY());
     }
 
