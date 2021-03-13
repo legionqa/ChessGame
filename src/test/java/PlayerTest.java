@@ -64,7 +64,7 @@ public class PlayerTest {
         Assertions.assertEquals("beth.harmon@gmail.com", whitePlayer.getEmail());
         Assertions.assertTrue(whitePlayer.isWhite());
         Assertions.assertEquals(2000, whitePlayer.getRank());
-        Assertions.assertEquals(20, whitePlayer.getAge());
+        Assertions.assertEquals(200, whitePlayer.getAge());
 
     }
 
